@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Vroooom</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/Register.css">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/cycle2.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-inverse">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">VROOM</a>
+
+			<!--Toggler/collapside Button-->
+			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navCollapse">
+				<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navCollapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li class="active"><a href="services.html">Our Services</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="register.html"><span class="glyphicon glyphicon-user"></span>Sign Up</a>
+				</li>
+				<li class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>SignIn</a>
+			</ul>
+		</div>
+
+	</nav>
+</header>
+<div class="container-fluid bg" >
+	<div class="row">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12"></div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<!--form start-->
+				<form class="form-container">
+					<h1>Register</h1>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Username</label>
+						<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					</div>
+
+					<div class="form-group">
+						<label for="exampleInputPassword1">Password</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Confirmation</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirmation">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Email</label>
+						<input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail">
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox"> Remember me
+						</label>
+					</div>
+					<button type="submit" class="btn btn-color btn-block">Submit</button>
+				</form>
+				<!--form end-->
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
