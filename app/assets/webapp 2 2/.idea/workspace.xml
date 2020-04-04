@@ -7,6 +7,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1ZwxEMZcafesFYxZAbf4vKyF6dU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -14,10 +23,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,7 +47,9 @@
       <workItem from="1585767804851" duration="6696000" />
       <workItem from="1585821912608" duration="11966000" />
       <workItem from="1585910983816" duration="166000" />
-      <workItem from="1585911447071" duration="482000" />
+      <workItem from="1585911447071" duration="907000" />
+      <workItem from="1585918730169" duration="2713000" />
+      <workItem from="1585927117308" duration="14837000" />
     </task>
     <servers />
   </component>
@@ -44,11 +57,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="125" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1585911447111">
+    <state x="125" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1585927116810">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="125" y="228" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1585766132016" />
-    <state x="125" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1585911447111" />
+    <state x="125" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1585927116810" />
     <state x="640" y="357" width="639" height="486" key="find.popup" timestamp="1585765078771">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

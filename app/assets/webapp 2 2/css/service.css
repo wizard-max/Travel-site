@@ -66,7 +66,7 @@ body header{
 }
 .navbar-inverse{
 	background: #bfb30b;
-	padding: 8px;
+	padding: 0px;
 	font-size: 15px;
 }
 .navbar-nav{
@@ -291,39 +291,7 @@ header {
 		margin-bottom: 15px;
 	}
 }
-/*footer style*/
-.site-footer {
-	text-align: center;
-	font-size: 85%;
-	color: #FFF;
-	background-color:#383732 ;
-	margin-top: 30px;
-	padding-top: 20px;
-	margin-bottom: 0px;
-	bottom: 0;
-}
-.bottom-footer{
-	border-top: 1px solid #FFF ;
-	margin-top: 4px;
-	padding-top: 4px;
-	color:#FFF;
-}
-.footer-nav li{
-	display: inline;
-}
-.footer-nav{
-	text-align: right;
-	list-style: none;
-	padding: opx 10px;
-}
-.footer-nav li:not(:first-child):before{
-	content: '|';
-	padding: opx 10px;
-}
-.footer-nav a{
-	color: #b2b2b2;
-}
-/*footer style*/
+
 .row:before,
 .row:after,
 .group:before,
