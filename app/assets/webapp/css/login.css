@@ -1,0 +1,202 @@
+@import "template.css";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+html, body {
+    height: 100%;
+    background:whitesmoke;
+    color: black;
+}
+
+.align {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 8px;
+}
+.align h2{
+    margin-bottom: -15px
+}
+.logo {
+    width: 120px;
+}
+
+.login-background{
+    margin-top: 28px;
+    height: 100%;
+    max-height: 446px;
+    width: 396px;
+    background: #121212;
+    border: 1px solid #373737;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+
+.extend {
+    max-height: 480px;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    height: 72px;
+    border-bottom: 1px solid #373737;
+    justify-content: space-between;
+}
+
+.head a {
+    height: 100%;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(140,140,140);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.head .selected {
+    position: relative;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.head .selected:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background: whitesmoke;
+    border-radius: 99px 99px 0 0;
+}
+
+.tabs {
+    height: calc(100% - 72px);
+    display: flex;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    padding: 44px 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 0;
+    transition: right 0.2s;
+}
+
+.extend form {
+    right: 100%;
+}
+
+.inputs {
+    width: 100%;
+    padding-top: 0px;
+}
+
+.input {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    width: 100%;
+    font-size: 17px;
+    background: #1C1C1C;
+    border-radius: 8px;
+    padding: 11px 18px 16px 51px;
+    color: rgb(220,220,220);
+}
+
+.input img {
+    width: 16px;
+    position: absolute;
+    left: 19px;
+}
+
+.checkbox {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.checkbox span {
+    display: flex;
+    align-items: center;
+    color: rgb(110,110,110);
+    font-size: 16px;
+    user-select: none;
+
+}
+
+.checkbox span:before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    margin-right: 16px;
+    background-color: whitesmoke;
+}
+
+.checkbox:hover input ~ span:before {
+    background-color: rgb(50,50,50);
+}
+
+.checkbox input:checked ~ span:before {
+    background-image: url(../media/login/correct.png);
+    background-size: cover;
+}
+
+.login-background button {
+    display: block;
+    background: black;
+    padding: 9px 30px;
+    border-radius: 12px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.login-background{
+    background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,666666+8,595959+10,595959+10,595959+11,595959+11,595959+18,000000+35,000000+42,1c1c1c+62,000000+66,000000+66,1c1c1c+71,1c1c1c+71,000000+77,1c1c1c+78,000000+82,131313+100 */
+    background: rgb(76,76,76); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(76,76,76,1) 0%, rgba(102,102,102,1) 8%, rgba(89,89,89,1) 10%, rgba(89,89,89,1) 10%, rgba(89,89,89,1) 11%, rgba(89,89,89,1) 11%, rgba(89,89,89,1) 18%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 42%, rgba(28,28,28,1) 62%, rgba(0,0,0,1) 66%, rgba(0,0,0,1) 66%, rgba(28,28,28,1) 71%, rgba(28,28,28,1) 71%, rgba(0,0,0,1) 77%, rgba(28,28,28,1) 78%, rgba(0,0,0,1) 82%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(76,76,76,1) 0%,rgba(102,102,102,1) 8%,rgba(89,89,89,1) 10%,rgba(89,89,89,1) 10%,rgba(89,89,89,1) 11%,rgba(89,89,89,1) 11%,rgba(89,89,89,1) 18%,rgba(0,0,0,1) 35%,rgba(0,0,0,1) 42%,rgba(28,28,28,1) 62%,rgba(0,0,0,1) 66%,rgba(0,0,0,1) 66%,rgba(28,28,28,1) 71%,rgba(28,28,28,1) 71%,rgba(0,0,0,1) 77%,rgba(28,28,28,1) 78%,rgba(0,0,0,1) 82%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(76,76,76,1) 0%,rgba(102,102,102,1) 8%,rgba(89,89,89,1) 10%,rgba(89,89,89,1) 10%,rgba(89,89,89,1) 11%,rgba(89,89,89,1) 11%,rgba(89,89,89,1) 18%,rgba(0,0,0,1) 35%,rgba(0,0,0,1) 42%,rgba(28,28,28,1) 62%,rgba(0,0,0,1) 66%,rgba(0,0,0,1) 66%,rgba(28,28,28,1) 71%,rgba(28,28,28,1) 71%,rgba(0,0,0,1) 77%,rgba(28,28,28,1) 78%,rgba(0,0,0,1) 82%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+
+
+
+
+

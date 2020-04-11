@@ -1,0 +1,97 @@
+/* start Navbar style*/
+.bg-red {
+    background-color: #242424;
+}
+.btn-outline-success {
+    color: 	#C0C0C0 !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: 	#C0C0C0 !important;
+}
+.navbar-brand {
+	width:3em;
+	margin-top:-10%;
+	margin-bottom:-10%;
+}
+.vroooom-logo {
+	width:100%;
+}
+/*finish navbar style*/
+
+
+
+/* background style*/
+.breadcrumb {
+
+    background-color:transparent!important;
+
+}
+.breadcrumb * { color: 	whitesmoke!important; }
+
+.background-overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+.page-title-bg {
+    background-image: url("../media/services/img2.jpg");
+    position: relative;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: -4px;
+}
+
+/*end of style background */
+.h1-service{
+    font-size: 40px;
+    opacity: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 83px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+
+*{
+box-sizing: border-box
+}
+/*end of style background */
+
+
+/*footer*/
+.footer-bottom {
+	background-color: #6c757da6;
+}
+.deep-purple .accent-2 .mb-4 .mt-0 .d-inline-block .mx-auto {
+	width: 60px;
+}
+.deep-purple .accent-2 .mb-4 .mt-0 .d-inline-block .mx-auto {
+	width: 60px;
+}
+.footer-color {
+    background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+4,595959+4,666666+9,666666+9,2c2c2c+19,111111+64,2c2c2c+68,000000+75,000000+82,000000+82,000000+84,1c1c1c+91,131313+100 */
+    background: rgb(76,76,76); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 4%, rgba(89,89,89,1) 4%, rgba(102,102,102,1) 9%, rgba(102,102,102,1) 9%, rgba(44,44,44,1) 19%, rgba(17,17,17,1) 64%, rgba(44,44,44,1) 68%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 84%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 4%,rgba(89,89,89,1) 4%,rgba(102,102,102,1) 9%,rgba(102,102,102,1) 9%,rgba(44,44,44,1) 19%,rgba(17,17,17,1) 64%,rgba(44,44,44,1) 68%,rgba(0,0,0,1) 75%,rgba(0,0,0,1) 82%,rgba(0,0,0,1) 82%,rgba(0,0,0,1) 84%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 4%,rgba(89,89,89,1) 4%,rgba(102,102,102,1) 9%,rgba(102,102,102,1) 9%,rgba(44,44,44,1) 19%,rgba(17,17,17,1) 64%,rgba(44,44,44,1) 68%,rgba(0,0,0,1) 75%,rgba(0,0,0,1) 82%,rgba(0,0,0,1) 82%,rgba(0,0,0,1) 84%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+	color: whitesmoke;
+}
+footer a {
+    color: whitesmoke !important;
+}
+
+/*footer*/
+
+
+
