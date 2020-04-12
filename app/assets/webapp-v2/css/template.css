@@ -1,0 +1,149 @@
+/* Custom Fonts */
+@font-face {
+    font-family: 'PTSans';
+    src: url('fonts/PT-Sans.eot');
+    src: url('fonts/PT-Sans.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT-Sans.woff') format('woff'),
+    url('fonts/PT-Sans.ttf') format('truetype'),
+    url('fonts/PT-Sans.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('fonts/PT-Sans-Bold.eot');
+    src: url('fonts/PPT-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT-Sans-Bold.woff') format('woff'),
+    url('fonts/PT-Sans-Bold.ttf') format('truetype'),
+    url('fonts/PT-Sans-Bold.svg#pt_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('fonts/PT-Sans-Italic.eot');
+    src: url('fonts/PPT-Sans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT-Sans-Italic.woff') format('woff'),
+    url('fonts/PT-Sans-Italic.ttf') format('truetype'),
+    url('fonts/PT-Sans-Italic.svg#pt_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('fonts/PT-Sans-BoldItalic.eot');
+    src: url('fonts/PPT-Sans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT-Sans-BoldItalic.woff') format('woff'),
+    url('fonts/PT-Sans-BoldItalic.ttf') format('truetype'),
+    url('fonts/PT-Sans-BoldItalic.svg#pt_sansbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Navbar style*/
+.bg-red {
+    background-color: #242424;
+}
+.btn-outline-success {
+    color: 	#C0C0C0 !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: 	#C0C0C0 !important;
+}
+.navbar-brand {
+	width:3em;
+	margin-top:-10%;
+	margin-bottom:-10%;
+}
+.vroooom-logo {
+	width:100%;
+}
+body header {
+    font-family: 'PTSans', Arial, sans-serif;
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 940px)
+{
+    body header{
+        font-size: 0.95em;
+    }
+	.form-control {
+		font-size: 0.95em!important;
+	}
+	.btn {
+		font-size: 0.95em!important;
+	}
+}
+
+/* Background style*/
+.breadcrumb {
+
+    background-color:transparent!important;
+
+}
+.breadcrumb * { color: 	whitesmoke!important; }
+
+.background-overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+/* COVER */
+.page-title-bg {
+	font-family: 'PTSans', Arial, sans-serif;
+    font-size: 1.5em!important;
+    background-image: url("../media/services/img2.jpg");
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+/*end of style background */
+
+.h1-service{
+    font-size: 3.125em;
+    opacity: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 250%;
+    margin-bottom: 0.3125em;
+    color: whitesmoke;
+}
+
+
+*{
+box-sizing: border-box
+}
+
+
+/*footer*/
+.footer-bottom {
+	background-color: #6c757da6;
+}
+
+
+.footer-color {
+    background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+4,595959+4,666666+9,666666+9,2c2c2c+19,111111+64,2c2c2c+68,000000+75,000000+82,000000+82,000000+84,1c1c1c+91,131313+100 */
+    background: rgb(76,76,76); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 4%, rgba(89,89,89,1) 4%, rgba(102,102,102,1) 9%, rgba(102,102,102,1) 9%, rgba(44,44,44,1) 19%, rgba(17,17,17,1) 64%, rgba(44,44,44,1) 68%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 84%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 4%,rgba(89,89,89,1) 4%,rgba(102,102,102,1) 9%,rgba(102,102,102,1) 9%,rgba(44,44,44,1) 19%,rgba(17,17,17,1) 64%,rgba(44,44,44,1) 68%,rgba(0,0,0,1) 75%,rgba(0,0,0,1) 82%,rgba(0,0,0,1) 82%,rgba(0,0,0,1) 84%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 4%,rgba(89,89,89,1) 4%,rgba(102,102,102,1) 9%,rgba(102,102,102,1) 9%,rgba(44,44,44,1) 19%,rgba(17,17,17,1) 64%,rgba(44,44,44,1) 68%,rgba(0,0,0,1) 75%,rgba(0,0,0,1) 82%,rgba(0,0,0,1) 82%,rgba(0,0,0,1) 84%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+	color: whitesmoke;
+}
+footer a {
+    color: whitesmoke !important;
+}
